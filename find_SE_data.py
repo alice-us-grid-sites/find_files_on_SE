@@ -99,7 +99,7 @@ class find_data:
 
 def main():
     """ Generic program structure to parse args, initialize and start application """
-    desc = """ prepare files for transfer """
+    desc = """ find files on given SE """
     
     p = argparse.ArgumentParser(description=desc, epilog="None")
     p.add_argument("--alien-path",dest="alien_path",default=None,help="base path to search for files")
